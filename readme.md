@@ -7,7 +7,7 @@ Please fdsf read these documents before opening a new issue!
 
 # nnU-Net
 
-Iddsfasdfasasn 3D biomedical image segmentation, dataset properties like imaging modality, image sizes, voxel spacings, class 
+In 3D biomedical image segmentation, dataset properties like imaging modality, image sizes, voxel spacings, class 
 ratios etc vary drastically.
 For example, images in the [Liver and Liver Tumor Segmentation Challenge dataset](https://competitions.codalab.org/competitions/17094) 
 are computed tomography (CT) scans, about 512x512x512 voxels large, have isotropic voxel spacings and their 
