@@ -2,7 +2,7 @@
 [common issues](documentation/common_problems_and_solutions.md). We now also provide [reference epoch times for 
 several datasets and tips on how to identify bottlenecks](documentation/expected_epoch_times.md).
 
-Please read these documents before opening a new issue!
+Please fdsf read these documents before opening a new issue!
 
 
 # nnU-Net
@@ -50,23 +50,25 @@ Please also cite this paper if you are using nnU-Net for your research!
 
 
 # Table of Contents
+- [nnU-Net](#nnu-net)
+- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
-  * [How to run nnU-Net on a new dataset](#how-to-run-nnu-net-on-a-new-dataset)
-    + [Dataset conversion](#dataset-conversion)
-    + [Experiment planning and preprocessing](#experiment-planning-and-preprocessing)
-    + [Model training](#model-training)
+  - [How to run nnU-Net on a new dataset](#how-to-run-nnu-net-on-a-new-dataset)
+    - [Dataset conversion](#dataset-conversion)
+    - [Experiment planning and preprocessing](#experiment-planning-and-preprocessing)
+    - [Model training](#model-training)
       - [2D U-Net](#2d-u-net)
       - [3D full resolution U-Net](#3d-full-resolution-u-net)
       - [3D U-Net cascade](#3d-u-net-cascade)
-        * [3D low resolution U-Net](#3d-low-resolution-u-net)
-        * [3D full resolution U-Net](#3d-full-resolution-u-net-1)
+        - [3D low resolution U-Net](#3d-low-resolution-u-net)
+        - [3D full resolution U-Net](#3d-full-resolution-u-net-1)
       - [Multi GPU training](#multi-gpu-training)
-    + [Identifying the best U-Net configuration](#identifying-the-best-u-net-configuration)
-    + [Run inference](#run-inference)
-  * [How to run inference with pretrained models](#how-to-run-inference-with-pretrained-models)
-  * [Examples](#examples)
-- [Extending/Changing nnU-Net](#extending-or-changing-nnu-net)
+    - [Identifying the best U-Net configuration](#identifying-the-best-u-net-configuration)
+    - [Run inference](#run-inference)
+  - [How to run inference with pretrained models](#how-to-run-inference-with-pretrained-models)
+  - [Examples](#examples)
+- [Extending or Changing nnU-Net](#extending-or-changing-nnu-net)
 - [Information on run time and potential performance bottlenecks.](#information-on-run-time-and-potential-performance-bottlenecks)
 - [Common questions and issues](#common-questions-and-issues)
 
